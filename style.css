@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    color:white;
+    font-family:Georgia, serif;
+}
+.header{
+    height:100vh;
+    width:100%;
+    background-image:url("./images/fon.png");
+    background-size: cover;
+    background-position:center;
+}
+.list{
+    display:flex;
+    justify-content:flex-end;
+    gap:20px;
+    padding:20px;
+}
+.list a{
+    color:white;
+}
+.title{
+    text-align:center;
+    margin-top:250px;
+}
+.title h1{
+    font-size:70px;
+    letter-spacing:8px;
+}
+.title p{
+    margin-top:15px;
+}
+.pois{
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 100vh;
+}
+.cards{
+    display:flex;
+    justify-content:space-around;
+    gap: 80px;
+    margin-top: 60px;
+}
+.card{
+    width: 350px;
+}
+.card img{
+    width:100%;
+}
+.history{
+    text-align:center;
+
+}
+.history h2{
+    margin-bottom:30px;
+}
+.history-img{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:40px;
+}
+.register-btn {
+    display: inline-flex;
+    margin-top: 20px;
+
+    padding: 12px 18px;
+
+    background: #2b2b2b;
+    color: #eaeaea;
+
+    border: 1px solid #3a3a3a;
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+
+    border-radius: 10px;
+
+    transition: 0.15s ease;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.register-btn:hover {
+    background: #353535;
+    border-color: #555;
+    transform: translateY(-1px);
+}
