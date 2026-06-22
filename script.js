@@ -30,3 +30,6 @@ switchBtn.addEventListener("click", function () {
         switchBtn.textContent = "Войти";
     }
 });
+
+
+

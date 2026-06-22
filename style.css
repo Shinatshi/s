@@ -95,3 +95,76 @@ body{
     border-color: #555;
     transform: translateY(-1px);
 }
+.menu{
+    display:none;
+    flex-direction: column;
+    gap:5px;
+    z-index:100;
+}
+.menu span{
+    display:block;
+    width:28px;
+    height:3px;
+    background-color:white;
+    border-radius:2px;
+    transition:0.3s ease;
+}
+
+@media(max-width: 768px){
+    .title{
+    text-align:center;
+    margin-top:100px;
+}
+.title h1{
+    font-size:35px;
+    letter-spacing:4px;
+}
+.list{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
+}
+.cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.card{
+    width:80%;
+}
+.history-img{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    margin-top:5px;
+
+}
+.menu{
+    display:flex;
+    align-items: flex-end;
+}
+.list{
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    top:30px;
+    right:0;
+    background-color:#222;
+    width:225px;
+    border-radius: 0 0 0 10px;
+    box-shadow: -2px 5px 10px rhba(0,0,0,0.5);
+    align-items: center;
+    z-index:99;
+}
+
+.list.active{
+    display:flex;
+}
+.header, .pois{
+    height:auto;
+    padding-bottom: 50px;
+}
+}
